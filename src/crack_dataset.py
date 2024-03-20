@@ -1,4 +1,5 @@
 import os
+import torch
 from torchvision import transforms
 from PIL import Image
 from torch.utils.data import Dataset, DataLoader, ConcatDataset, random_split

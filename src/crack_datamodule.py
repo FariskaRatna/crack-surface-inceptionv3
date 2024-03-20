@@ -1,6 +1,7 @@
 import torch
 from pytorch_lightning import LighntingDataModule
 from crack_dataset import CrackDataset
+from torchvision import transforms
 
 class CrackDataModule(LightningDataModule):
     def __init__(
